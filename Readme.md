@@ -8,7 +8,7 @@ It is an extension to pipeline and written in groovy.
     `Jenkins UI -> Manage Jenkins -> Manage System ->  Global Pipeline Libraries`
 3. Now Use Shared Library to Jenkinsfile by importing.
     `@Library('name given during adding jenkins shared library to jenkins')`
-4. Or If You can directly use Jenkins Shared Libraries to Jenkinsfile without adding them to Jenkins UI like. 
+4. Or You can directly use Jenkins Shared Libraries to Jenkinsfile without adding them to Jenkins UI like. 
     ```
         library identifier: 'jenkins-shared-library@master', retriever: modernSCM(
         [$class: 'GitSCMSource',
